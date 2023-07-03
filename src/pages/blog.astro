@@ -1,5 +1,5 @@
 ---
-
+const pageTitle = "Thy Blog";
 ---
 
 <html lang="en">
@@ -7,14 +7,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blog</title>
+    <title>{pageTitle}</title>
   </head>
   <body>
     <a href="/">Home</a>
   	<a href="/about">About</a>
-  	<a href="/blog">Thy Blog</a>
+  	<!-- <a href="/blog">Thy Blog</a> -->
 
-    <h1>Thy Blog</h1>
+    <h1>{pageTitle}</h1>
+    <p>This is where I will post about my journey learning Astro.</p>
+    <ul>
+      <li><a href="/posts/post-1/">Post 1</a></li>
+      <li><a href="/posts/post-2/">Post 2</a></li>
+      <li><a href="/posts/post-3/">Post 3</a></li>
+    </ul>
+
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat libero non dui finibus imperdiet. Ut sit amet commodo erat. Maecenas congue neque nisi, ac lacinia velit luctus quis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque eu consequat leo. Vestibulum venenatis neque ullamcorper ultrices aliquam. Mauris pulvinar tortor id varius bibendum. <p>
 
     <p>Duis varius cursus nunc in convallis. Mauris neque ante, mollis non urna vitae, lacinia laoreet arcu. Quisque sit amet ligula ligula. Praesent enim sem, blandit et pharetra id, molestie quis lorem. Vivamus semper erat at sem mattis mattis. In luctus cursus tristique. Morbi venenatis lobortis quam, vel efficitur ipsum semper in. Donec accumsan laoreet neque, id dictum massa tempus vel. Curabitur dui odio, laoreet et consequat non, maximus eu tortor.</p>
