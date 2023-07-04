@@ -1,6 +1,4 @@
 ---
-  
+  const {url, text} = Astro.props
 ---
-<a href="/">Home</a>
-<a href="/about/">About</a>
-<a href="/blog/">Blog</a>
+<a href={`${url}`}>{text}</a>
